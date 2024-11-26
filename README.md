@@ -11,8 +11,8 @@ Este proyecto permite gestionar y hostear un servidor de Minecraft de manera loc
   - `google-auth-httplib2`
   - `google-api-python-client`
   - `zipfile`
-  - [Java 1.17](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251391_0d8f12bc927a4e2c9f8568ca567db4ee) o superior
-  - [No-IP](https://www.noip.com/es-MX/download)
+- [Java 1.17](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=251391_0d8f12bc927a4e2c9f8568ca567db4ee) o superior
+- [No-IP](https://www.noip.com/es-MX/download)
   
   Puedes instalar estas librerías ejecutando:
   
