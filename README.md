@@ -20,7 +20,8 @@ Este proyecto permite gestionar y hostear un servidor de Minecraft de manera loc
   pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
   ```
 
-- Archivo de credenciales de Google Drive (`credentials.json`), obtenido desde la consola de desarrolladores de Google.
+- Archivo de credenciales de Google Drive (`credentials.json`), obtenido desde la consola de desarrolladores de Google o descargado de Drive.
+- El archivo de configuración (`config.json`), obtenido y editado desde GitHub o Google Drive.
 
 ## **Estructura del Proyecto**
 
