@@ -45,10 +45,12 @@ El proyecto consta de dos partes principales:
 
 2. **Configura tu router**
    - Accede a la configuración de tu router escribiendo `192.168.1.1`
-   - Añade una redirección de puertos a tu IP local (puerto `25565`)
-     		Utiliza `ipconfig` para conocer la puerta de enlace y la IP local de tu dispositivo
+   - Añade una redirección de puertos a tu IP local (puertos `25565` y `19132`)
+         El puerto `25565` en TCP
+         El puerto `19132` en UDP
+         Utiliza `ipconfig` para conocer la puerta de enlace y la IP local de tu dispositivo
    - Establece una IP local fija para tu dispositivo (recomendado)
-   - Añade una regla al firewall con el puerto `25565` (entrada y salida)
+   - Añade una regla al firewall con los puertos `25565` y `19132` (entrada y salida)
 
 4. **Obtén las credenciales de Google**:
 (Innecesario, está en drive)
@@ -76,3 +78,6 @@ El proyecto consta de dos partes principales:
 - **Credenciales de Google no válidas**: Asegúrate de que el archivo `credentials.json` esté correctamente configurado y que tengas acceso a la API de Google Drive.
 - **Archivos no encontrados**: Verifica que las carpetas `world`, `world_the_end`, `world_nether`, `heaven` y `plugins` existan en la ruta especificada.
 - **Error de autentificación**: Error en el archivo `token.pickle`, bórralo y vuelve a ejecutar el programa.
+- **Error en la versión**: Si estáis en genesis, comprobad que la versión de Minecraft es la `1.21.1`
+- **Error de conexión**: Comprueba la dirección del servidor, puedes utilizar el comando `ping "IP"` para ver si el servidor está online. Si estás jugando en Minecraft Bedrock PE, comprueba que tenéis habilitada la opción de usar datos móviles.
+        Si tienes dudas de si el servidor está funcionando comprueba que los puertos `25565` y `19132` están abiertos en [Minecraft Server Status](https://mcsrvstat.us) o [Can U See Me](https://canyouseeme.org)
