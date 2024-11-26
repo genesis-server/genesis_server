@@ -4,7 +4,7 @@ Este proyecto permite gestionar y hostear un servidor de Minecraft de manera loc
 
 ## **Requisitos**
 
-- Python 3.x
+- Python 3.x (Yo utilice 3.12.5)
 - Librerías de Python:
   - `google-auth`
   - `google-auth-oauthlib`
