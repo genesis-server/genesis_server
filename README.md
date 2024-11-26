@@ -76,8 +76,12 @@ El proyecto consta de dos partes principales:
 ## **Errores comunes**
 
 - **Credenciales de Google no válidas**: Asegúrate de que el archivo `credentials.json` esté correctamente configurado y que tengas acceso a la API de Google Drive.
+  
 - **Archivos no encontrados**: Verifica que las carpetas `world`, `world_the_end`, `world_nether`, `heaven` y `plugins` existan en la ruta especificada.
+  
 - **Error de autentificación**: Error en el archivo `token.pickle`, bórralo y vuelve a ejecutar el programa.
+  
 - **Error en la versión**: Si estáis en genesis, comprobad que la versión de Minecraft es la `1.21.1`
+  
 - **Error de conexión**: Comprueba la dirección del servidor, puedes utilizar el comando `ping "IP"` para ver si el servidor está online. Si estás jugando en Minecraft Bedrock PE, comprueba que tenéis habilitada la opción de usar datos móviles.
         Si tienes dudas de si el servidor está funcionando comprueba que los puertos `25565` y `19132` están abiertos en [Minecraft Server Status](https://mcsrvstat.us) o [Can U See Me](https://canyouseeme.org)
