@@ -50,7 +50,7 @@ El proyecto consta de dos partes principales:
          El puerto `25565` en TCP
          El puerto `19132` en UDP
          Utiliza `ipconfig` para conocer la puerta de enlace y la IP local de tu dispositivo
-   - Establece una IP local fija para tu dispositivo (recomendado)
+   - [Establece una IP local fija](/IP-config/static-IP.md) para tu dispositivo (recomendado)
    - Añade una regla al firewall con los puertos `25565` y `19132` (entrada y salida)
 
 4. **Obtén las credenciales de Google**:
