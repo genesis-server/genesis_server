@@ -1,0 +1,11 @@
+{
+    "drive_file_id": "ID",
+    "drive_folder_id": "ID",
+    "download_path": "ROUTE",
+    "ram_max_gb": "16",
+    "ram_min_gb": "12",
+    "render_distance": 16,
+    "view_distance": 16,
+    "host": "genesis.serveminecraft.net",
+    "port": 25565
+}
