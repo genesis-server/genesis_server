@@ -1,5 +1,6 @@
 # **Servidor de Minecraft**
 
+![Foto Inicio](/images/mushroom.jpeg)
 Este proyecto permite gestionar y hostear un servidor de Minecraft de manera local y gratuita, así como respaldar los archivos de este utlizando [Google Drive](https://drive.google.com/drive/u/0/my-drive), comprimiendo carpetas específicas y subiéndolas a la nube. Además, gestiona la configuración y el inicio de un servidor de Minecraft con configuraciones personalizadas.
 
 ## **Requisitos**
