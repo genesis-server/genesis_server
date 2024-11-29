@@ -23,7 +23,7 @@ Para configurar una dirección IP estática en Windows, sigue estos pasos:
 
 ## 4. Seleccionar Protocolo de Internet versión 4 (TCP/IPv4)
 - En la lista de elementos, busca **Protocolo de Internet versión 4 (TCP/IPv4)** y haz doble clic sobre él.
-- <br>
+<br>
 
 ![Seleccionar TCP/IPv4](/IP-config/04.png)
 
