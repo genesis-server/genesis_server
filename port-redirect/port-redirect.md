@@ -75,4 +75,4 @@ Este archivo explica cómo configurar la redirección de puertos en Windows y c�
 ---
 
 ### **Probar la Configuración**
-Desde una conexión externa (como datos móviles), utiliza una herramienta como [Port Checker](https://www.yougetsignal.com/tools/open-ports/) o las herramientas del archivo [README](README.md) para verificar si el puerto está abierto.
+Desde una conexión externa (como datos móviles), utiliza una herramienta como [Port Checker](https://www.yougetsignal.com/tools/open-ports/) o las herramientas del archivo [README](/README.md) para verificar si el puerto está abierto.
