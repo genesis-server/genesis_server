@@ -16,18 +16,26 @@ Este archivo explica cómo configurar la redirección de puertos en Windows y c�
 1. Presiona `Win + S` para abrir el buscador de Windows.
 2. Escribe `Firewall de Windows con seguridad avanzada` y selecciona la opción.
 3. En la ventana principal, verás el árbol de configuración.
+<br>
+
+![Firewall](reglas-firewall.png)
 
 #### **2. Crear 2 Nuevas Reglas de Entrada**
 1. Haz clic en **Reglas de entrada** en el panel izquierdo.
 2. Selecciona **Nueva regla** en el panel derecho.
 3. En el asistente, elige **Puerto** y haz clic en **Siguiente**.
-4. **Especifica el puerto:**
+
+<br>
+
+![Puerto](reglas-firewall-2.png)
+
+5. **Especifica el puerto:**
    - Selecciona primero **TCP**
     Introduce el puerto `25565`.
-5. Selecciona **Permitir la conexión** y haz clic en **Siguiente**.
-6. Marca los perfiles de red que se aplicarán (**Dominio**, **Privada**, **Pública**) y haz clic en **Siguiente**.
-7. Asigna un nombre a la regla (por ejemplo, `Redirección puerto Java`) y haz clic en **Finalizar**.
-8. Repite este mismo proceso pero con el puerto `19132` y **UDP**.
+6. Selecciona **Permitir la conexión** y haz clic en **Siguiente**.
+7. Marca los perfiles de red que se aplicarán (**Dominio**, **Privada**, **Pública**) y haz clic en **Siguiente**.
+8. Asigna un nombre a la regla (por ejemplo, `Redirección puerto Java`) y haz clic en **Finalizar**.
+9. Repite este mismo proceso pero con el puerto `19132` y **UDP**.
 
 
 #### **3. Configurar la Regla para Redirigir al Destino**
@@ -45,6 +53,8 @@ Este archivo explica cómo configurar la redirección de puertos en Windows y c�
 ---
 
 ### **En el Router**
+
+> **Nota:** Si no ves las opciones en vuestra configuración del router [aquí](/port-redirect) tienes fotos con las configuraciones más habituales.
 
 #### **1. Accede al Panel de Administración del Router**
 1. Abre un navegador web.
