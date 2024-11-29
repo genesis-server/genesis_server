@@ -2,8 +2,6 @@
 
 Este archivo explica cómo configurar la redirección de puertos en Windows y cómo realizar los ajustes necesarios en el router para garantizar que las conexiones externas lleguen correctamente al equipo de destino.
 
----
-
 #### **Requisitos previos**
 - Permisos de administrador en tu sistema Windows.
 - Acceso al panel de administración del router (generalmente vía navegador web).
@@ -11,8 +9,6 @@ Este archivo explica cómo configurar la redirección de puertos en Windows y c�
 ---
 
 ### **Pasos para Configurar la Redirección de Puertos**
-
----
 
 ### **En Windows**
 
