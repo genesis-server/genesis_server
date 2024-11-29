@@ -49,8 +49,8 @@ El proyecto consta de dos partes principales:
 > **Nota:** Hay más información sobre cómo configurar el router [aquí](/port-redirect/port-redirect.md)
    - Accede a la configuración de tu router escribiendo `192.168.1.1`
    - Añade una redirección de puertos a tu IP local (puertos `25565` y `19132`)
-       - El puerto `25565` en TCP
-       - El puerto `19132` en UDP
+       - El puerto `25565` en **TCP**
+       - El puerto `19132` en **UDP**
        - Utiliza `ipconfig` para conocer la puerta de enlace y la IP local de tu dispositivo
    - [Establece una IP local fija](/IP-config/static-IP.md) para tu dispositivo (recomendado)
    - Añade una regla al firewall con los puertos `25565` y `19132` (entrada y salida)
