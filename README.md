@@ -46,6 +46,7 @@ El proyecto consta de dos partes principales:
    - Modifica el archivo `config.json` para incluir la ruta de la carpeta del servidor, el ID de la carpeta de Google Drive, la RAM máxima y mínima, etc.
 
 2. **Configura tu router**
+> **Nota:** Hay más información sobre cómo configurar el router [aquí](/port-redirect/port-redirect.md)
    - Accede a la configuración de tu router escribiendo `192.168.1.1`
    - Añade una redirección de puertos a tu IP local (puertos `25565` y `19132`)
        - El puerto `25565` en TCP
