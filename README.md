@@ -44,6 +44,10 @@ El proyecto consta de dos partes principales:
 
 1. **Configura tu servidor de Minecraft**:
    - Modifica el archivo `config.json` para incluir la ruta de la carpeta del servidor, el ID de la carpeta de Google Drive, la RAM máxima y mínima, etc.
+   - 
+> **Importante:** `download_path` debe tener el formato `"C:\\abcd\\efgh\\ijkl"` (carpetas separadas por \\)
+
+> **Nota:** `ram_max_gb` y `ram_min_gb` debe oscilar entre la [RAM de tu dispositivo](/RAM/check-ram.md) - 2Gb y la [RAM de tu dipositivo](/RAM/check-ram.md) - 6Gb
 
 2. **Configura tu router**
 > **Nota:** Hay más información sobre cómo configurar el router [aquí](/port-redirect/port-redirect.md)
