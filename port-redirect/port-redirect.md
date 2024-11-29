@@ -1,4 +1,4 @@
-### Configuración de Redirección de Puertos
+## Configuración de Redirección de Puertos
 
 Este archivo explica cómo configurar la redirección de puertos en Windows y cómo realizar los ajustes necesarios en el router para garantizar que las conexiones externas lleguen correctamente al equipo de destino.
 
