@@ -52,7 +52,7 @@ Este archivo explica cómo configurar la redirección de puertos en Windows y c�
 
 #### **1. Accede al Panel de Administración del Router**
 1. Abre un navegador web.
-2. Ingresa la dirección IP del router en la barra de direcciones (normalmente es `192.168.1.1` o `192.168.0.1`).
+2. Ingresa la dirección IP del router en la barra de direcciones de tu navegador (normalmente es `192.168.1.1` o `192.168.0.1`).
 3. Introduce el nombre de usuario y la contraseña (revisa en la etiqueta del router o consulta al proveedor si no los conoces).
 
 #### **2. Localiza la Configuración de Redirección de Puertos**
@@ -61,30 +61,18 @@ Este archivo explica cómo configurar la redirección de puertos en Windows y c�
 
 #### **3. Configura la Regla de Redirección**
 1. **Añade una nueva regla de redirección:**
-   - **Nombre o Descripción**: Introduce un nombre descriptivo (por ejemplo, `Redirección 8080`).
-   - **Protocolo**: Selecciona **TCP**, **UDP**, o ambos.
-   - **Puerto externo**: Especifica el puerto que recibirá las conexiones externas (por ejemplo, `8080`).
+   - **Nombre o Descripción**: Introduce un nombre descriptivo (por ejemplo, `Minecraft Java/Bedrock`).
+   - **Protocolo**: Selecciona **TCP** o **UDP**.
+   - **Puerto externo**: Especifica el puerto que recibirá las conexiones externas (`25565` si pusiste **TCP** `19132` si fue **UDP**).
    - **IP del dispositivo local**: Introduce la IP local de tu equipo (por ejemplo, `192.168.1.100`).
    - **Puerto interno**: Especifica el puerto al que deseas redirigir en el dispositivo local (generalmente es el mismo que el puerto externo).
-2. Guarda los cambios.
+2. Guarda los cambios y repite con el protocolo que falta y su puerto
 
 #### **4. Activa la Configuración**
 1. Busca un botón o una opción para aplicar o guardar la configuración (puede estar etiquetado como **Guardar**, **Apply**, o similar).
-2. Reinicia el router si es necesario para que los cambios surtan efecto.
+2. Reinicia el router si es necesario para que los cambios surtan efecto. (No suele ser necesario)
 
 ---
 
 ### **Probar la Configuración**
-1. Desde una conexión externa (como datos móviles), utiliza una herramienta como [Port Checker](https://www.yougetsignal.com/tools/open-ports/) para verificar si el puerto está abierto.
-2. En la red local, usa el comando `telnet <IP_local> <puerto>` o herramientas como `curl` o `nmap`.
-
----
-
-#### **Notas Adicionales**
-- Si el router tiene configurada una dirección IP dinámica, considera habilitar un servicio de DNS dinámico (DDNS) para facilitar el acceso remoto.
-- Algunos proveedores de internet bloquean puertos comunes (como el 80). Verifica las políticas de tu proveedor si tienes problemas.
-- Mantén una copia de seguridad de la configuración del router antes de realizar cambios significativos.
-
---- 
-
-Este archivo detalla los pasos necesarios para una configuración exitosa de redirección de puertos tanto en Windows como en el router. Ajusta según el modelo del router y las necesidades específicas.
+Desde una conexión externa (como datos móviles), utiliza una herramienta como [Port Checker](https://www.yougetsignal.com/tools/open-ports/) o las herramientas del archivo [README](README.md) para verificar si el puerto está abierto.
