@@ -1,3 +1,5 @@
+## Instalar SKlauncher
+
 ### Requisitos para el Launcher y Configuración de Java
 
 El launcher disponible en [skmedix.pl](https://skmedix.pl/es/downloads) requiere **Java 17** o **Java 21** para funcionar correctamente. Aquí te explicamos cómo instalar y configurar Java siguiendo las recomendaciones.
