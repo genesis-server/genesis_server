@@ -10,6 +10,8 @@ Puedes usar las siguientes opciones para descargar la versión adecuada de Java:
 - **Temurin™ 21 LTS (recomendado)**: Descárgalo desde la página oficial de [Adoptium](https://adoptium.net/es/temurin/releases/?version=17&os=windows).
 - **Oracle Java**: Descárgalo desde el sitio oficial de Oracle ([Java Downloads](https://www.oracle.com/java/technologies/downloads/)).
 
+> **Nota**: Puede ser recomendable que apuntes dónde has descargado Java.
+
 #### 2. **Configuración durante la instalación**
 Durante el proceso de instalación, asegúrate de activar las siguientes opciones:
 
@@ -47,3 +49,6 @@ Si alguna de las opciones anteriores no se configuró automáticamente:
 
 #### 5. **Actualizar el Launcher**
 Después de configurar Java, ejecuta el launcher. Ahora debería funcionar correctamente. Si hay problemas, verifica que el launcher esté apuntando a la instalación correcta de Java.
+
+#### 6. **Añadir la versión al Launcher**
+Añade una nueva instalación y selecciona la versión 1.21.1
