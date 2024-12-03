@@ -68,6 +68,9 @@ El proyecto consta de dos partes principales:
 
 1. **Iniciar el servidor de Minecraft**:
    - Ejecuta el script `main_init.py` o `Genesis Server.exe` para iniciar el servidor de Minecraft. Este script verifica la conexión al servidor y, si está en línea, lo inicia con las configuraciones definidas.
+
+3. **Juega**:
+   - Inicia Minecraft con tu laucher de confianza, si no tienes puedes usar [Sklaucncher](SKlauncher-install.md). Disfruta del juego. Para cerrar el server, ejecuta el comando `/stop`.
    
 2. **Subir los archivos a Google Drive**:
    - Ejecuta el script `drive_uploader.py` o `Drive Uploader.exe` para comprimir las carpetas importantes del servidor de Minecraft y subirlas a la carpeta de Google Drive especificada en `config.json`.
