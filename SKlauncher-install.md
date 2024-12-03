@@ -51,4 +51,6 @@ Si alguna de las opciones anteriores no se configuró automáticamente:
 Después de configurar Java, ejecuta el launcher. Ahora debería funcionar correctamente. Si hay problemas, verifica que el launcher esté apuntando a la instalación correcta de Java.
 
 #### 6. **Añadir la versión al Launcher**
-Añade una nueva instalación y selecciona la versión 1.21.1
+1. Añade una nueva instalación y selecciona la versión 1.21.1 e iníciala.
+2. Entra en multijugador y añade un nuevo servidor
+3. Guárdalo e inicia
